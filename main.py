@@ -5,7 +5,6 @@ import random
 
 sg.theme('reddit')
 
-
 def get_weather_date(location):
     url = f"https://www.google.com/search?q=погода+{location.replace(' ','')}"
     session = requests.Session()
