@@ -6,9 +6,7 @@ There are a couple of things to keep in mind before using the app...
 ```
 py -m venv .venv
 .\.venv\Scripts\activate
-pip install PySimpleGUI
-pip install BeautifulSoup4
-pip install requests
+pip install -r requirements.txt
 py main.py
 ```
 
